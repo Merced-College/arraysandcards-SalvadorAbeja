@@ -1,3 +1,8 @@
+/*
+Salvador Abeja
+01-22-26
+BlackJack With Arrays Assignment
+*/
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,6 +13,8 @@ public class BlackJack {
 // it also doens't give the user the option to use the Ace as a one//
 // The user does have to press the run button again to be able to play again
 // There is not a set of code to be able to play multiple times on one go.
+//The code also spews out several random numbers on top of the game itself.
+
     private static final String[] SUITS = { "Hearts", "Diamonds", "Clubs", "Spades" };
     private static final String[] RANKS = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King",
             "Ace" };
@@ -40,7 +47,7 @@ public class BlackJack {
             DECK[i] = i;
         }
     }
-//this section is what provides the randomization of the crads//
+//this section is what provides the randomization of the cards//
     private static void shuffleDeck() {
         Random random = new Random();
         for (int i = 0; i < DECK.length; i++) {
