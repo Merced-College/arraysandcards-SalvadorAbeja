@@ -40,7 +40,7 @@ public class BlackJack {
             DECK[i] = i;
         }
     }
-
+//this section is what provides the randomization of the crads//
     private static void shuffleDeck() {
         Random random = new Random();
         for (int i = 0; i < DECK.length; i++) {
@@ -89,6 +89,7 @@ public class BlackJack {
         }
         return playerTotal;
     }
+    //The dealer will only pick up another card if their value is under 17//
 
     private static int dealerTurn(int dealerTotal) {
         while (dealerTotal < 17) {
@@ -116,7 +117,7 @@ public class BlackJack {
     private static int cardValue(int card) {
         return card < 9 ? card + 2 : 10;
     }
-
+//It only provides values of 2 - 10 when it can go from 1-11//
     int linearSearch(int[] numbers, int key) {
         int i = 0;
         for (i = 0; i < numbers.length; i++) {
