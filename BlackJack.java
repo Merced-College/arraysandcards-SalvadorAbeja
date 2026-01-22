@@ -15,7 +15,7 @@ public class BlackJack {
 // There is not a set of code to be able to play multiple times on one go.
 //The code also spews out several random numbers on top of the game itself.
 //it doesn't display the dealers total if you bust out of the game.
-//it also doesn't show or say when the dealer grabs another card.
+//it also doesn't show or say when the dealer grabs another card.//
     private static final String[] SUITS = { "Hearts", "Diamonds", "Clubs", "Spades" };
     private static final String[] RANKS = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King",
             "Ace" };
