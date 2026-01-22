@@ -3,8 +3,11 @@ import java.util.Scanner;
 
 public class BlackJack {
 
-//The static code lines are global constants//
+// The static code lines are global constants//
 // An error I found was that the code thinks that an Ace has a value of 10 instead of 11//
+// it also doens't give the user the option to use the Ace as a one//
+// The user does have to press the run button again to be able to play again
+// There is not a set of code to be able to play multiple times on one go.
     private static final String[] SUITS = { "Hearts", "Diamonds", "Clubs", "Spades" };
     private static final String[] RANKS = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King",
             "Ace" };
